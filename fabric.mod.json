@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "anarchia_cheats",
+  "version": "${version}",
+  "name": "Anarchia Cheats",
+  "description": "Purple ClickGUI client-side interface prototype.",
+  "authors": ["Anarchia"],
+  "environment": "client",
+  "entrypoints": { "client": ["pl.anarchia.cheats.AnarchiaCheats"] },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
